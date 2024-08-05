@@ -1,0 +1,194 @@
+[
+  {
+    "datastoreType": "BigQuery",
+    "section": "basic_settings",
+    "inputFields": [
+      {
+        "displayName": "Data Store Name",
+        "isMandatory": true,
+        "propertyName": "name",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "Data Store Description",
+        "isMandatory": false,
+        "propertyName": "description",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "Data Store Host",
+        "isMandatory": true,
+        "propertyName": "datastoreHost",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "Data Store Port",
+        "isMandatory": true,
+        "propertyName": "datstorePort",
+        "propertyType": "number"
+      },
+      {
+        "displayName": "Project Id",
+        "isMandatory": true,
+        "propertyName": "projectId",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "Billing Project Id",
+        "isMandatory": false,
+        "propertyName": "billingProjectId",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "Total Scope",
+        "isMandatory": true,
+        "propertyName": "totalScope",
+        "propertyType": "number"
+      }
+    ]
+  },
+  {
+    "datastoreType": "BigQuery",
+    "section": "connection_settings",
+    "inputFields": {
+      "subSections": [
+        {
+          "id": "Service Account Settings",
+          "fields": [
+            {
+              "displayName": "Please use one option:\n 1. Upload service account file\n 2. Full path of service account",
+              "isMandatory": false,
+              "propertyName": "fileUpload",
+              "propertyType": "button"
+            },
+            {
+              "displayName": "Service Account full path",
+              "isMandatory": false,
+              "propertyName": "OAuthPvtKeyPath",
+              "propertyType": "text"
+            },
+            {
+              "displayName": "Service Account Email",
+              "isMandatory": false,
+              "propertyName": "OAuthServiceAcctEmail",
+              "propertyType": "text"
+            }
+          ]
+        },
+        {
+          "id": "Vault Settings",
+          "fields": [
+            {
+              "displayName": "Vault Host",
+              "isMandatory": true,
+              "propertyName": "VaultHost",
+              "propertyType": "text"
+            },
+            {
+              "displayName": "Vault Port",
+              "isMandatory": false,
+              "propertyName": "VaultPort",
+              "propertyType": "text"
+            },
+            {
+              "displayName": "Vault Role Id",
+              "isMandatory": false,
+              "propertyName": "VaultRoleId",
+              "propertyType": "text"
+            },
+            {
+              "displayName": "Vault Role Secret",
+              "isMandatory": false,
+              "propertyName": "VaultRoleSecret",
+              "propertyType": "text"
+            },
+            {
+              "displayName": "Vault Impersonated Account Name",
+              "isMandatory": false,
+              "propertyName": "VaultImpersonatedAccountName",
+              "propertyType": "text"
+            },
+            {
+              "displayName": "Vault Namespace",
+              "isMandatory": false,
+              "propertyName": "VaultNamespace",
+              "propertyType": "text"
+            },
+            {
+              "displayName": "Vault Secret Engine Path",
+              "isMandatory": false,
+              "propertyName": "VaultSecretEnginePath",
+              "propertyType": "text"
+            },
+            {
+              "displayName": "Proxy Enabled for Vault",
+              "isMandatory": false,
+              "propertyName": "VaultProxyEnabled",
+              "propertyType": "checkbox"
+            },
+            {
+              "displayName": "SSL Enabled for Vault",
+              "isMandatory": false,
+              "propertyName": "VaultSslEnabled",
+              "propertyType": "checkbox"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "datastoreType": "BigQuery",
+    "section": "pelican_settings",
+    "inputFields": [
+      {
+        "displayName": "Temporary Database",
+        "isMandatory": true,
+        "propertyName": "temporaryDatabase",
+        "propertyType": "text"
+      }
+    ]
+  },
+  {
+    "datastoreType": "BigQuery",
+    "section": "proxy_settings",
+    "inputFields": [
+      {
+        "displayName": "Proxy Host",
+        "isMandatory": false,
+        "propertyName": "ProxyHost",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "Proxy Port",
+        "isMandatory": false,
+        "propertyName": "ProxyPort",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "Proxy Username",
+        "isMandatory": false,
+        "propertyName": "ProxyUid",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "Proxy Password",
+        "isMandatory": false,
+        "propertyName": "ProxyPwd",
+        "propertyType": "password"
+      },
+      {
+        "displayName": "SSL Truststore",
+        "isMandatory": false,
+        "propertyName": "SSLTrustStore",
+        "propertyType": "text"
+      },
+      {
+        "displayName": "SSL Truststore Password",
+        "isMandatory": false,
+        "propertyName": "SSLTru       Pwd",
+        "propertyType": "password"
+      }
+    ]
+  }
+]

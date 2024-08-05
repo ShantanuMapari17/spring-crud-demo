@@ -199,3 +199,13 @@ Caused by: java.lang.IllegalArgumentException: This class [class com.shantanu.st
 2024-08-05 23:19:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
 2024-08-05 23:19:55 INFO  c.s.s.StudentCrudApplication - Started StudentCrudApplication in 2.046 seconds (process running for 2.267)
 2024-08-05 23:20:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-05 23:35:29 INFO  c.s.s.StudentCrudApplication - Starting StudentCrudApplication using Java 21.0.2 with PID 71888 (/Users/shantanumapari/Tutorials/Spring Tutorial/new-spring/student-crud/target/classes started by shantanumapari in /Users/shantanumapari/Tutorials/Spring Tutorial/new-spring/student-crud)
+2024-08-05 23:35:29 DEBUG c.s.s.StudentCrudApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-05 23:35:29 INFO  c.s.s.StudentCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-05 23:35:29 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-05 23:35:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-05 23:35:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-05 23:35:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-05 23:35:31 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-05 23:35:31 INFO  c.s.s.StudentCrudApplication - Started StudentCrudApplication in 2.11 seconds (process running for 2.384)
+2024-08-05 23:35:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
